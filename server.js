@@ -51,6 +51,6 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(PORT, '127.0.0.1', () => {
-  console.log(`Backend ${NODE_ENV} ortamında ${PORT} portunda çalışıyor (127.0.0.1)`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Backend ${NODE_ENV} ortamında ${PORT} portunda çalışıyor`);
 });
