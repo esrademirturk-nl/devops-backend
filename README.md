@@ -1,4 +1,4 @@
-# DevOps Backend
+# DevOps Backend test
 
 A simple REST API written in Node.js + Express, with three endpoints.
 Built for a DevOps course project: kept alive on an Ubuntu VPS with PM2,
